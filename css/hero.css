@@ -10,6 +10,9 @@ header{
 h1{
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 
 }
 
@@ -17,6 +20,7 @@ header img{
 	border-radius: 53px;
     width: 300px;
     border: 10px solid #ffffcc;
+    box-shadow: 0 10px 20px black;
 }
 
 .content{
@@ -43,7 +47,12 @@ ul{
 
 a{
 	color: red;
+	background-color: #77773c;
 	text-decoration: none;
+}
+
+a:hover{
+	background-color: #330000;
 }
 
 footer{
