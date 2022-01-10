@@ -1,7 +1,13 @@
 html, body{
 	font-family: Arial, sans-serif;
+	color: #C18D21;
+	text-transform: uppercase;
+	font-size: 25px;
 	margin: 0;
-	background-image: url("vikings.jpg");
+	background-color: #0C1F34;
+
+
+
 
 } 
 header{
@@ -9,8 +15,8 @@ header{
 	text-align: center;
 }
 h1{
-	font-size: 90px;
-	color: white;
+	font-size: 110px;
+	color: #C18D21;
 	text-shadow: 0 4px 20px black;
 	margin: 0;
 	text-transform: uppercase;
@@ -18,9 +24,9 @@ h1{
 }
 
 header img{
-	border-radius: 53px;
-    width: 300px;
-    border: 10px solid #ffffcc;
+	border-radius: 0px;
+    width: 400px;
+    border: 10px solid #C18D21;
     box-shadow: 0 10px 20px black;
 }
 
@@ -32,11 +38,12 @@ header img{
 
 img.big-image{
 	max-width: 100%;
+	height: auto;
 }
 
 p.caption{
 	font-size: 16px;
-	color: lightgrey;
+	color: #C18D21;
 	font-size: italic;
 }
 
@@ -48,7 +55,7 @@ ul{
 
 a{
 	color: red;
-	background-color: #77773c;
+	background-color: #C18D21;
 	text-decoration: none;
 }
 
@@ -57,9 +64,9 @@ a:hover{
 }
 
 footer{
-	margin-top: 20px;
-	padding: 40px 20px;
-	background-color: #003300;
+	margin-top: 50px;
+	padding: 20px 20px;
+	background-color: #00001a;
 }
 
 footer ul{
@@ -69,4 +76,5 @@ footer ul{
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
+	color: white;
 }
