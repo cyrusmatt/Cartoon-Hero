@@ -4,7 +4,11 @@ html, body{
 	text-transform: uppercase;
 	font-size: 25px;
 	margin: 0;
-	background-color: #0C1F34;
+	background:rgba(0,0,0,0.75)url(Vikings.jpg) repeat;
+	background-size: 100%;
+	background-blend-mode: darken;
+	
+
 
 
 
@@ -54,13 +58,13 @@ ul{
 }
 
 a{
-	color: red;
+	color: #0C1F34;
 	background-color: #C18D21;
 	text-decoration: none;
 }
 
 a:hover{
-	background-color: #330000;
+	background-color: #800000;
 }
 
 footer{
